@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 24px;
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.7)), url('https://images.unsplash.com/photo-1505075106905-fb052892c116?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 95px 0px 0px 110px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 48px;
+    }
+}
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.contact-item {
+    margin-bottom: 4px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.name {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 36px;
+    }
+}
+
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
