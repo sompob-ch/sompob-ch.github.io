@@ -74,3 +74,9 @@ body {
     text-transform: uppercase;
     margin-bottom: 24px;
 }
+
+.title {
+    font-size: 96px;
+    font-weight: 400;
+    text-align: center;
+}
